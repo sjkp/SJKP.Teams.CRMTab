@@ -1,0 +1,111 @@
+html, body {
+    height: 100%;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: block;
+}
+
+header {
+    background-color: #080808;
+}
+
+nav a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.7em 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+    nav li:first-child {
+        font-size: 1.3em;
+        margin-left: 0;
+    }
+
+main {
+    padding: 2rem 0;
+    display: block;
+}
+
+/* This ensures the footer is always located at the bottom of the page */
+.wrapper {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -50px;
+}
+
+    .wrapper:after {
+        content: "";
+        display: block;
+    }
+
+    footer, .wrapper:after {
+        height: 50px;
+    }
+
+        footer .container {
+            border-top: 1px solid #e1e1e1;
+            padding-top: 10px;
+        }
+
+/* Changes the layout of the header on small screens */
+@media only screen and (max-width: 640px) {
+    header ul {
+        text-align: center;
+    }
+
+    header li:first-child {
+        display: block;
+    }
+}
+
+*:before, *:after {
+    box-sizing: content-box;
+}
+
+.form-field-input {
+    color: #16233a;
+}
+
+.form-control {
+    margin: 0;
+    background: #eef1f5;
+    border: 0 solid transparent;
+    border-bottom-width: .2rem;
+    color: #16233a;
+    resize: none;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 33px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4285;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+
+    .form-control:focus {
+        border-bottom-color: #5558af;
+        box-shadow: none;
+        outline: 0;
+    }
+
+section {
+    margin-bottom: 10px;
+}

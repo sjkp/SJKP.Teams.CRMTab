@@ -1,0 +1,13 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "system",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "outFile": "wwwroot/js/app.js",
+    "rootDir": "app"
+  }, 
+  "exclude": ["obj/*"]
+  
+}

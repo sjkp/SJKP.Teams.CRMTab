@@ -1,0 +1,16 @@
+﻿
+<div class="ms-Grid">
+    <div class="ms-Grid-row">
+        <div class="ms-Grid-col ms-u-sm12">
+          
+
+            <h1 class="ms-fontSize-xxl">Leads</h1>
+         
+            <div class="ms-ListItem is-selectable" ng-repeat="res in accounts" ng-click="openLink(res.leadid)">
+                <span class="ms-ListItem-primaryText">{{res.fullname}}</span>
+                <span class="ms-ListItem-tertiaryText">{{res.subject}}</span>
+                <span class="ms-ListItem-tertiaryText">Annual Revenue: {{res.revenue}} USD</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.2/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.2",
+  "id": "dk.sjkp.crmtab",
+  "version": "0.2",
+  "name": "Dynamics CRM Tab",
+  "developer": {
+    "name": "SJKP",
+    "websiteUrl": "https://sjkpcrmteamstab.azurewebsites.net",
+    "privacyUrl": "https://sjkpcrmteamstab.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://sjkpcrmteamstab.azurewebsites.net/termsofuse.html"
+  },
+  "description": {
+    "short": "Insert a CRM tab",
+    "full": "Allows you to bring CRM content directly in to Microsoft Teams"
+  },
+  "icons": {
+    "44": "44.png",
+    "88": "88.png"
+  },
+  "accentColor": "#002050",
+  "configUrl": "https://sjkpcrmteamstab.azurewebsites.net/config.html",
+  "canUpdateConfig": true,
+  "needsIdentity": false,
+  "validDomains": [
+    "*.azurewebsites.net"
+  ]
+}
